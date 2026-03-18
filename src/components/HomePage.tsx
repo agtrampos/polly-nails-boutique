@@ -3,6 +3,7 @@ import logoImg from "@/assets/logo.png";
 import { CalendarDays, MessageCircle, Wallet, Clock } from "lucide-react";
 import useLocalStorage from "@/hooks/useLocalStorage";
 import type { AppPage } from "@/pages/Index";
+import BeforeAfterGallery from "@/components/BeforeAfterGallery";
 
 interface Props {
   onNavigate: (p: AppPage) => void;
