@@ -110,6 +110,9 @@ const HomePage = ({ onNavigate, onBook, onWhatsApp }: Props) => {
         ))}
       </div>
     </div>
+
+    {/* Before & After Gallery */}
+    <BeforeAfterGallery />
   </div>
   );
 };
